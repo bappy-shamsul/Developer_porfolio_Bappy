@@ -178,6 +178,7 @@ ul{
 }
 .resume-content{
     display: flex;
+    gap: 24px;
 }
 .resume .title{
     font-size: 25px;
