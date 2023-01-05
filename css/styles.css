@@ -80,7 +80,7 @@ nav li{
     border: 1px solid orange;
     margin-right: 15px;
     height: 40px;
-    width: 130px;
+    width: 230px;
     padding: 5px;
     border-radius: 3px;
     font-size: 16px;
@@ -89,10 +89,10 @@ nav li{
     height: 40px;
     width: 130px;
     padding: 5px;
-    border: 1px solid gray;
+    border: 0;
     border-radius: 3px;
     font-size: 16px;
-    color: orange;
+    color: black;
 }
 /* main section */
 main{
