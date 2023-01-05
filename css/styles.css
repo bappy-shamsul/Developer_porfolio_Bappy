@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation */
+.header{
+    height: 800px;
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.text-primary{
+    color: hsl(39, 100%, 50%);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.btn-primary{
+    color: aliceblue;
+    background: #ffa500;
+    height: 55px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 35px;
+}
+/* banner */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-subtitle{
+    font-size: 35px;
+    font-weight: 700;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #808080;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    width: 350px;
+}
+.btn-banner-cv{
+    color: white;
+    background: orange;
+    border: 1px solid orange;
+    margin-right: 15px;
+    height: 40px;
+    width: 130px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.btn-banner-contact{
+    height: 40px;
+    width: 130px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 16px;
+    color: orange;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.about-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.about-description{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 45px;
+    text-align: center;
+}
+.li-info{
+    font-size: 22px;
+    font-weight: 600;
+}
